@@ -1,0 +1,363 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    /* border: 2px solid black; */
+}
+
+.one{
+    height: 50vh;
+    width: 100%;
+    background-image: url(/picture/dance-time-stylish-men-woman-dancing-hip-hop-bright-clothes-green-background-dance-hall-neon-light.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.esntl{
+  color: white;
+  padding-left: 430px;
+  padding-top: 90px;
+  font-family: monospace;
+  font-size: 50px;
+}
+.esntext{
+    color: white;
+    padding-left: -50px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.two{
+    height: 50vh;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+button{
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    font-size: 15px;
+    margin-top: 30px;
+    border-radius: 50px;
+    background: none;
+    border: 2px solid teal;
+    transition: 0.5s ease-in-out all;
+    cursor: pointe;
+}
+span{
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+}
+/* button:hover{ */
+    /* background-color: seagreen; */
+/* } */
+.aro1{
+    opacity: 0;
+}
+.buto1:hover .sn{
+    transform: translateX(-5px);
+}
+.buto1:hover .aro1{
+    transform: translateX(5px);
+    opacity: 1;
+}
+.aro2{
+    opacity: 0;
+}
+.buto2:hover .lm{
+    transform: translateX(-5px);
+}
+.buto2:hover .aro2{
+    transform: translateX(5px);
+    opacity: 1;
+}
+.myguy{
+    margin-top: 40px;
+}
+
+
+.three{
+    height: 50vh;
+    width: 100%;
+    background-image: url(/picture/boy-dancing-hip-hop-stylish-clothes-gradient-background-dance-hall-neon-light.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.exp{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    padding-top: 120px;
+    padding-left: 420px;
+}
+
+.four{
+    height: 120vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    z-index: 2;
+}
+.pic1{
+    height: 300px;
+    width: 450px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 80px;
+    background-image: url(/picture/man\ system\ working.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:0 0 20% black;
+}
+.pic2:hover{
+    color: orangered;
+}
+.pic2{
+    height: 300px;
+    width: 450px;
+    float: right;
+    margin-top: 45px;
+    margin-right: 80px;
+    background: url(/picture/man\ walking.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.float1{
+    float: right;
+    width: 600px;
+    height: 300px;
+    margin-right: 80px;
+    margin-top: 30px;
+    background:linear-gradient(to bottom left, rgb(160, 30, 160), grey, rgb(243, 167, 4));
+    columns: 50px 50px;
+    box-shadow:0 0 20px black;
+}
+.flot1{
+    padding-left: 100px;
+    padding-top: 30px;
+    font-weight: bolder;
+    color: white;
+}
+.float2{
+    float: left;
+    width: 600px;
+    height: 300px;
+    margin-left: 80px;
+    margin-top: 45px;
+    background:linear-gradient(to top right, rgb(160, 30, 160), grey, rgb(243, 167, 4));
+    columns: 50px 50px;
+    box-shadow:0 0 20px black;
+}
+.flot2{
+    padding-left: 100px;
+    padding-top: 30px;
+    font-weight: bolder;
+    color: white;
+}
+.scope{
+    color: white;
+    padding-top: 60px;
+    padding-left: 100px;
+}
+.scope1{
+    color: white;
+    padding-top: 60px;
+    padding-left: 100px;
+}
+.five{
+    position: absolute;
+    transition-delay: 1s;
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(22, 208, 237);
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+}
+
+.divide{
+    position: relative;
+    z-index: 1000;
+    background: white;
+}
+.logo{
+    padding-left: 570px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.sub{
+    color: white;
+    font-family: sans-serif;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.input{
+    width: 180px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.continue{
+    width: 100px;
+    height: 40px;
+}
+.follow{
+    color: white;
+    padding-left: 620px;
+    top: -100px;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.li1{
+    display: flex;
+    justify-content: center;
+    margin-top: -90px;
+    color: blue;
+}
+li{
+    margin:10px;
+    font-size: 30px;
+    list-style-type: none;
+}
+.contact{
+    position: relative;
+    color: white;
+    padding-left: 1000px;
+    /* font-size: 30px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -55px;
+}
+.line{
+    position: relative;
+    background-color: rgb(247, 229, 223);
+    height: 2px;
+    width: 9%;
+    transform: rotate(90deg);
+    margin-left: 300px;
+    margin-top: -50px;
+}.line1{
+    position: relative;
+    background-color: rgb(245, 230, 225);
+    height: 2px;
+    width: 9%;
+    transform: rotate(90deg);
+    margin-left: 800px;
+    margin-top: -5px;
+}
+@media screen and (max-width: 768px){
+    .esntl{
+        font-size: 30px;
+        padding-left: 250px;
+        padding-top: 60px;
+    }
+    .esntext{
+        font-size: 12px;
+        padding-right: 30px;
+    }
+    .one{
+        width: 100%;
+        height: 30vh;
+    }
+    .two{
+        width: 100%;
+        height: 25vh;
+    }
+    .three{
+        width: 100%;
+        height: 30vh;
+    }
+    button {
+        height: 30px;
+        width: 130px;
+        font-size: 12px;
+    }
+    .myguy{
+        font-size: 12px;
+        font-weight: 0px;
+        padding-bottom: 70px;
+        margin-top: 10px;
+    }
+    .exp{
+        font-size: 40px;
+        padding-right: 150px;
+        padding-left: 190px;
+        padding-top: 50px;
+    }
+    .pic1{
+        height: 200px;
+        width: 350px;
+        /* float: left; */
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .float1{
+        width: 370px;
+        height: 200px;
+        margin-right: 0px;
+        margin-top: 15px;
+        background: rgb(110, 5, 102);
+        columns: 50px 50px;
+    }
+    .flot1{
+        font-size: 12px;
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+    .scope{
+        padding-top: 30px;
+    }
+    .float2{
+        width: 370px;
+        height: 200px;
+        margin-left: 400px;
+        margin-top: 15px;
+        background: rgb(3, 104, 45);
+        columns: 50px 50px;
+    }
+    .flot2{
+        font-size: 12px;
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+    .scope1{
+        padding-top: 30px;
+    }
+    .pic2{
+        height: 200px;
+        width: 350px;
+        margin-top: -200px;
+        margin-right: 400px;
+    }
+    .four{
+        height: 45vh;
+    width: 100%;
+    }
+    .logo{
+        padding-left: 300px;
+    }
+    .contact{
+        padding-left: 400px;
+        margin-top: -20px;
+    }
+    .li1{
+        margin-top: ;
+    }
+    .five{
+        height: 30vh;
+        position: relative;
+    }
+
+    }
+
